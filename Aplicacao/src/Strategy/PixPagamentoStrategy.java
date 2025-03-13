@@ -1,7 +1,7 @@
 package Strategy;
 
 public class PixPagamentoStrategy implements PagamentoStrategy{
-    private string chavePix;
+    private String chavePix;
     public PixPagamentoStrategy(String chavePix){
         this.chavePix = chavePix;
     }

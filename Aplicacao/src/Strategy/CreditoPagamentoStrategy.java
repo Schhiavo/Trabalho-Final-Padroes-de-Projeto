@@ -1,7 +1,7 @@
 package Strategy;
 
 public class CreditoPagamentoStrategy implements PagamentoStrategy{
-    private string numeroDoCartao;
+    private String numeroDoCartao;
     public CreditoPagamentoStrategy(String numeroDoCartao){
         this.numeroDoCartao = numeroDoCartao;
     }
