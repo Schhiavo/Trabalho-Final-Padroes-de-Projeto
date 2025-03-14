@@ -2,12 +2,10 @@ package Bridge_Builder_Visitor;
 
 public class AtendimentoMedico extends Atendimento{
 	private AtendimentoDetalhado detalhes;
-    private String dados;
 
     public AtendimentoMedico(TipoAtendimento tipoAtendimento, AtendimentoDetalhado detalhes) {
         super(tipoAtendimento);
-        this.detalhes = detalhes;
-        this.dados = "Informações de exemplo";
+        this.detalhes = detalhes.getDescricao();
     }
 
     @Override
@@ -20,6 +18,6 @@ public class AtendimentoMedico extends Atendimento{
     }
 
     public getDados() {
-        return this.dados;
+        return this.detalhes;
     }
 }

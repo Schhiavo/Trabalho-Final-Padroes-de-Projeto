@@ -6,3 +6,5 @@ public class VisitorJSON implements Visitor{
         return "{ \"Dados\": \"" + atendimentoMedico.getDados() + "\" }";
     }
 }
+
+
