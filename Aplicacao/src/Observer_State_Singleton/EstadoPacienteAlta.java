@@ -6,7 +6,7 @@ public class EstadoPacienteAlta extends EstadoPaciente {
 	
 	public static EstadoPacienteAlta getInstance() {
 		return instance;
-	}
+	}	
 	
 	public String getEstado() {
 		return "Alta do episódio";
