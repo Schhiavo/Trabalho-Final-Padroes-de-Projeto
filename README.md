@@ -21,5 +21,5 @@ A aplicação escolhida gira em torno de um sistema de atendimento médico. Cobr
 * **Abstract Factory**: Utilizado na criação e emissão de registros dos pacientes.
 * **Visitor**: Utilizado na geração de relatórios de atendimento dos médicos para exportação dos dados em **JSON**, **XML** e **THRIFT**.
 * **State**, **Singleton** e **Observer**: Utilizados em conjunto nas atualizações dos estados de um prontuário.
-* **Strategy**:
-* **Factory Method**:   
+* **Strategy**: Utilizado em um pequeno sistema de pagamentos
+* **Factory Method**:  Utilizado na criação de notificações 
